@@ -1,0 +1,59 @@
+{
+  "Title": "測試範例 - 問題回答溝通",
+  "Source": "IT單位",
+  "Apply": "王OO",
+  "Content": "以下為word文件套版內容測試範本",
+  "ExportDetail": [
+    {
+      "column1": "內容一",
+      "column2": [
+        {
+          "question": "1-1",
+          "description": "問題說明"
+        },
+        {
+          "question": "1-2",
+          "description": "問題說明"
+        }
+      ],
+      "column3": [
+        {
+          "ans": "我覺得1-1答案應該是這樣",
+          "name": "王OO"
+        },
+        {
+          "ans": "我覺得1-2答案應該是這樣",
+          "name": "張OO"
+        }
+      ]
+    },
+    {
+      "column1": "內容二",
+      "column2": [
+        {
+          "question": "2-1",
+          "description": "問題說明"
+        },
+        {
+          "question": "2-2",
+          "description": "問題說明"
+        }
+      ],
+      "column3": [
+        {
+          "ans": "Q2_回答1",
+          "name": "林OO"
+        },
+        {
+          "ans": "Q2_回答2",
+          "name": "周OO"
+        },
+        {
+          "ans": "Q2_回答3",
+          "name": "葉O"
+        }
+      ]
+    }
+  ],
+  "AuditLog": "此為AuditLog流程紀錄內容"
+}
