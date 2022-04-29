@@ -111,8 +111,8 @@ namespace DocxTemplateSet
 
                     if (elem.ChildElements[i].InnerText.EndsWith($"]{layer}"))
                     {
-                        var m = Regex.Match(matchText, $@"(?<=\#)\S+(?=\]{layer})");
-                        var matchkey = Regex.Match(m.Value, @"\S+?(?=\[)");
+                        var m = Regex.Match(matchText, $@"(?<=\#)[\S\s]+(?=\]{layer})");
+                        var matchkey = Regex.Match(m.Value, @"[\S\s]+?(?=\[)");
 
                         if (datas.ContainsKey(matchkey.Groups[0].Value))
                         {
@@ -126,8 +126,8 @@ namespace DocxTemplateSet
                                 {
                                     elem.InsertAt(elem.ChildElements[start + k + 1].CloneNode(true), i + k + ((i - start - 1) * row));
 
-                                    var l = Regex.Match(m.Value, $@"(?<=\#)\S+(?=\]{layer})");
-                                    var l_matchkey = Regex.Match(l.Value, @"\w+(?=\[)");
+                                    var l = Regex.Match(m.Value, $@"(?<=\#)[\S\s]+(?=\]{layer})");
+                                    var l_matchkey = Regex.Match(l.Value, @"[\S\s]+(?=\[)");
                                     if (l.Success)
                                     {
                                         Dictionary<string, dynamic> tmp = new Dictionary<string, dynamic>();
