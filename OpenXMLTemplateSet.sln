@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocxTemplateSet", "OpenXMLTemplateSet\DocxTemplateSet.csproj", "{573E1CC1-16BB-46B0-96C8-B8B31D932D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.Doxc.TemplateSet", "SJ.Doxc.TemplateSet\SJ.Doxc.TemplateSet.csproj", "{DCA92D6B-B83C-43A6-BA9F-49E2C854CD8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{573E1CC1-16BB-46B0-96C8-B8B31D932D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573E1CC1-16BB-46B0-96C8-B8B31D932D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573E1CC1-16BB-46B0-96C8-B8B31D932D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA92D6B-B83C-43A6-BA9F-49E2C854CD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA92D6B-B83C-43A6-BA9F-49E2C854CD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA92D6B-B83C-43A6-BA9F-49E2C854CD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA92D6B-B83C-43A6-BA9F-49E2C854CD8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
